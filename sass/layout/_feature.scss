@@ -1,0 +1,78 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__title {
+    color: $secondaryColor;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $font-36;
+    font-style: normal;
+    font-weight: $weight-600;
+    line-height: 44px; /* 122.222% */
+    margin-bottom: 8px;
+  }
+  &__info--text {
+    max-width: 628px;
+    color: $neutralGrey;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $font-16;
+    font-style: normal;
+    font-weight: $weight-400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 16px;
+  }
+  &__cards {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    gap: 50px;
+  }
+  &__card {
+    // width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      display: flex;
+      // width: 368px;
+    }
+  }
+  &__card--info {
+    width: 317px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 85px;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 8px;
+    background: #f5f7fa;
+    transition: all 1s ease;
+
+  }
+  &__card--info:hover {
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+    transition: all 1s ease;
+  }
+  &__card--text {
+    color: $neutralGrey;
+    max-width: 285px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $font-20;
+    font-style: normal;
+    font-weight: $weight-600;
+    line-height: 28px; /* 140% */
+  }
+  &__card--link {
+    color: $primaryColor;
+    font-family: $mainFont;
+    font-size: $font-20;
+    font-style: normal;
+    font-weight: $weight-600;
+    line-height: 28px; /* 140% */
+  }
+}

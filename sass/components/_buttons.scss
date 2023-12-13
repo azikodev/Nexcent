@@ -1,0 +1,33 @@
+.btn {
+    color: $white;
+    text-align: center;
+    background-color: $primaryColor;
+    font-family: $mainFont;
+    font-size: $font-16;
+    font-weight: $weight-500;
+    padding: 10px 32px;
+    line-height: 24px;
+    border: 1px solid transparent;
+    transition: background, color 1s ease;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: $white;
+    color: $primaryColor;
+    border: 1px solid $primaryColor;
+    transition: background  1s ease;
+}
+.login-btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: $primaryColor;
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $font-14;
+    font-style: normal;
+    font-weight: $weight-500;
+    line-height: 20px; /* 142.857% */
+    padding: 10px 32px;
+    transition: background 1s ease;
+}
