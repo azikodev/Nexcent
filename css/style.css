@@ -325,7 +325,7 @@ ol {
   background: #f5f7fa;
   transition: all 1s ease;
 }
-.feature__card--info:hover {
+.feature__card:hover .feature__card--info {
   box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
   transition: all 1s ease;
 }
@@ -347,6 +347,30 @@ ol {
   font-style: normal;
   font-weight: 600;
   line-height: 28px; /* 140% */
+}
+.feature__subtitle {
+  color: #263238;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px; /* 118.75% */
+  max-width: 887px;
+  margin-bottom: 46px;
+}
+.feature__btn {
+  text-align: center;
+}
+.feature__bottom {
+  background-color: #F5F7FA;
+  padding: 32px 0;
+}
+.feature__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
